@@ -792,6 +792,7 @@ UniValue viewdeterministicfluxnodelist(const UniValue& params, bool fHelp, strin
         GetDeterministicListData(deterministicList, strFilter, (Tier)currentTier);
     }
 
+
     // Return list
     return deterministicList;
 }
